@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Funções Interativas</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Funções Interativas</h1>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>1. Mensagem de Olá Mundo</h2>
+      <button onclick="mostrarMensagem()">Mostrar Mensagem</button>
+      <p id="mensagem"></p>
+    </section>
+
+    <section>
+      <h2>2. Soma de Dois Números</h2>
+      <input type="number" id="num1" placeholder="Número 1" />
+      <input type="number" id="num2" placeholder="Número 2" />
+      <button onclick="somar()">Somar</button>
+      <p id="resultado"></p>
+    </section>
+
+    <section>
+      <h2>3. Alterar Propriedade por ID</h2>
+      <button onclick="alterarPorId()">Alterar por ID</button>
+      <div id="elementoId" class="box">Texto original por ID</div>
+    </section>
+
+    <section>
+      <h2>4. Alterar Propriedade por Name</h2>
+      <button onclick="alterarPorName()">Alterar por Name</button>
+      <div name="elementoName" class="box">Texto original por NAME</div>
+    </section>
+
+    <section>
+      <h2>5. Alterar Propriedade por Class</h2>
+      <button onclick="alterarPorClass()">Alterar por Class</button>
+      <div class="box classe-alvo">Texto original por CLASS</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Desenvolvido com 💙</p>
+  </footer>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
